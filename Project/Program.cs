@@ -1,24 +1,21 @@
 ﻿int a = int.Parse(Console.ReadLine());
 int b = int.Parse(Console.ReadLine());
 int c = int.Parse(Console.ReadLine());
-int d = int.Parse(Console.ReadLine());
-if(a == b && a == c && a != d)
+//int d = int.Parse(Console.ReadLine());
+if (Math.Abs(a - b) > Math.Abs(a - c))
 {
-    Console.WriteLine("Teng bulmagan sonning tartib raqami: " + 4); 
+    Console.WriteLine("YAQIN NUQTA: " + b + "\nmasofasi: " + Math.Abs(a - c));
 }
-else if(a == b &&b == d && a != c)
+else if (Math.Abs(a - b) < Math.Abs(a - c))
 {
-    Console.WriteLine("Teng bulmagan sonning tartib raqami: " + 3);
+    Console.WriteLine("YAQIN NUQTA: " + b + "\nmasofasi: " + Math.Abs(a - b));
 }
-else if (a == c && c == d && a != b)
+
+else if (Math.Abs(a - b) == Math.Abs(a - c))
 {
-    Console.WriteLine("Teng bulmagan sonning tartib raqami: " + 2);
+    Console.WriteLine("yaqin nuqta: " + b + " " + c);
 }
-else if(b == c && c == d && c != a)
+else if (a == b && b == c) 
 {
-    Console.WriteLine("Teng bulmagan sonning tartib raqami: " + 1);
-}
-else
-{
-    Console.WriteLine("teng bulmagan son yuq");
+    Console.WriteLine("nuqtalar ustma ust tushadi");
 }
