@@ -32,3 +32,28 @@
 //    Console.WriteLine("Kabisa yili emas, bu yilda 365 kun bor");
 //}
 //goto salom;
+// case 1- misol
+//salom:
+//Console.Write("Hafta kunini kiriting: ");
+//int day = int.Parse(Console.ReadLine());
+//switch (day % 7)
+//{
+//	case 0: 
+//		Console.WriteLine("Dushanba"); break;
+//    case 1:
+//        Console.WriteLine("Seshanba"); break;
+//    case 2:
+//        Console.WriteLine("Chorshanba"); break;
+//    case 3:
+//        Console.WriteLine("Payshanba"); break;
+//    case 4:
+//        Console.WriteLine("Juma"); break;
+//    case 5:
+//        Console.WriteLine("Shanba"); break;
+//    case 6:
+//        Console.WriteLine("Yakshanba"); break;
+//    default:
+//        Console.WriteLine("bunaqa hafta kuni mavjud emas"); break;
+
+//}
+//goto salom;
