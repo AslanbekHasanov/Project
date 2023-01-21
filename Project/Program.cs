@@ -1,4 +1,5 @@
-﻿//int a = int.Parse(Console.ReadLine());
+﻿//20 -misol
+//int a = int.Parse(Console.ReadLine());
 //int b = int.Parse(Console.ReadLine());
 //int c = int.Parse(Console.ReadLine());
 ////int d = int.Parse(Console.ReadLine());
@@ -19,3 +20,15 @@
 //{
 //    Console.WriteLine("nuqtalar ustma ust tushadi");
 //}
+//if 28 -misol
+//salom:
+//int year = int.Parse(Console.ReadLine());
+//if((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0))
+//{
+//    Console.WriteLine("Kabisa yili, bu yilda 366 kun bor");
+//}
+//else
+//{
+//    Console.WriteLine("Kabisa yili emas, bu yilda 365 kun bor");
+//}
+//goto salom;
