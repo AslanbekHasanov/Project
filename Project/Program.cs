@@ -76,16 +76,16 @@
 //}
 // IF 24 - misol
 // if 27
-int x = int.Parse(Console.ReadLine());
-if(x < 0)
-{
-    Console.WriteLine(0);
-}
-else if((x >= 0 && x < 1) || (x >= 2 && x < 3))
-{
-    Console.WriteLine(1);
-}
-else if((x >= 1 && x < 2) || (x >= 3 && x < 4))
-{
-    Console.WriteLine(-1);
-}
+//int x = int.Parse(Console.ReadLine());
+//if(x < 0)
+//{
+//    Console.WriteLine(0);
+//}
+//else if((x >= 0 && x < 1) || (x >= 2 && x < 3))
+//{
+//    Console.WriteLine(1);
+//}
+//else if((x >= 1 && x < 2) || (x >= 3 && x < 4))
+//{
+//    Console.WriteLine(-1);
+//}
