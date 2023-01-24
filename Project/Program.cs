@@ -89,3 +89,24 @@
 //{
 //    Console.WriteLine(-1);
 //}
+//switch case 5 - Calc
+Console.Write("a = ");double a = double.Parse(Console.ReadLine());
+char temp = char.Parse(Console.ReadLine());
+Console.Write("b = ");double b = double.Parse(Console.ReadLine());
+
+switch (temp)
+{
+    case '+': 
+        Console.WriteLine(a + " + " + b + " = " + (a + b)); 
+        break;
+    case '-':
+        Console.WriteLine("a - b = " + (a - b));
+        break;
+    case '*':
+        Console.WriteLine("a * b = " + (a * b));
+        break;
+    case '/':
+        Console.WriteLine("a / b = " + (a / b));
+        break;
+    default: Console.WriteLine("bunaqa amal yuq"); break;
+}
