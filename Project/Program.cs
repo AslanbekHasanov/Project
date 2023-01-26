@@ -89,3 +89,31 @@
 //{
 //    Console.WriteLine(-1);
 //}
+//double month = double.Parse(Console.ReadLine());
+//string seasonName;
+//switch (month)
+//{
+//	case 12:
+//	case 1:
+//	case 2: seasonName = "Winter"; break;
+//	case 3:
+//	case 4:
+//	case 5: seasonName = "Spring"; break;
+//	case 6:
+//	case 7:
+//	case 8: seasonName = "Summer"; break;
+//	case 9:
+//	case 10:
+//	case 11: seasonName = "Autumn"; break;
+//    default:
+//		seasonName = "\aThis is month not found";
+//		break;
+//}
+//if (month < 12)
+//{
+//    Console.WriteLine("This is {0} month, belongs to the {1} season ", month, seasonName);
+//}
+//else
+//{
+//    Console.WriteLine(seasonName);
+//}
