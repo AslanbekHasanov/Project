@@ -75,6 +75,8 @@
 //		break;
 //}
 // IF 24 - misol
+
+
 // if 27
 //int x = int.Parse(Console.ReadLine());
 //if(x < 0)
@@ -89,6 +91,11 @@
 //{
 //    Console.WriteLine(-1);
 //}
+
+
+
+
+
 //double month = double.Parse(Console.ReadLine());
 //string seasonName;
 //switch (month)
@@ -116,4 +123,21 @@
 //else
 //{
 //    Console.WriteLine(seasonName);
+//}
+
+
+
+////if 30 - misol
+//float a = float.Parse(Console.ReadLine());
+//if ((a > 9 && a < 100) && (a % 2 == 0))
+//{
+//    Console.WriteLine("ikki xonali juft son");
+//}
+//else if ((a > 99 && a < 1000) && (a % 2 == 1))
+//{
+//    Console.WriteLine("uch xonali toq son");
+//}
+//else
+//{
+//    Console.WriteLine("bu oraliqdagi son emas");
 //}
