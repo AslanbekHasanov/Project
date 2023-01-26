@@ -89,38 +89,3 @@
 //{
 //    Console.WriteLine(-1);
 //}
-//switch case 6 - 
-double a = double.Parse(Console.ReadLine());
-double n = double.Parse(Console.ReadLine());
-object resault, name;
-switch (n)
-{
-	case 1:
-		resault = a / 10;
-		name = "desimetr";
-		break;
-	case 2:
-		resault = a * 1000;
-		name = "kilometr";
-		break;
-	case 3:
-		resault = a  / 1;
-		name = "metr";
-		break;
-	case 4:
-		resault = a  / 1000;
-		name = "millimetr";
-		break;
-	case 5:
-		resault = a / 100;
-		name = "santimetr";
-		break;
-
-
-	default:
-		resault = a;
-		name = "Xato";
-
-		break;
-}
-Console.WriteLine($"{a} {name}, {resault} metr buladi");
