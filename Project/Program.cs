@@ -141,3 +141,4 @@
 //{
 //    Console.WriteLine("bu oraliqdagi son emas");
 //}
+//salom
